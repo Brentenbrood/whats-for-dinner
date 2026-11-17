@@ -399,15 +399,18 @@ export default function DinnerGame({
         if (caught) {
           const amount = item.golden ? 3 : 1;
           const current = countsRef.current[item.id] ?? 0;
-          countsRef.current[item.id] = Math.min(9, current + amount);
-          scoreRef.current += item.golden ? 30 : 10;
-          particles.push({
-            x: item.x,
-            y: item.y,
-            text: item.golden ? "+3" : "+1",
-            life: 1,
-            golden: item.golden
-          });
+          const next = Math.min(9, current + amount);
+          if (next > current) {
+            countsRef.current[item.id] = next;
+            scoreRef.current += item.golden ? 30 : 10;
+            particles.push({
+              x: item.x,
+              y: item.y,
+              text: item.golden ? "+3" : "+1",
+              life: 1,
+              golden: item.golden
+            });
+          }
           items.splice(index, 1);
           continue;
         }

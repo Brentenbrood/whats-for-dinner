@@ -46,18 +46,31 @@ function loadDealFile() {
 const snapshot = loadDealFile();
 const app = express();
 
+app.use((request, response, next) => {
+  response.setHeader("X-Content-Type-Options", "nosniff");
+  response.setHeader("X-Frame-Options", "DENY");
+  response.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  response.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
+  next();
+});
+
 app.disable("x-powered-by");
 app.use(express.json({ limit: "96kb" }));
 
 function requestedStores(value) {
   if (Array.isArray(value)) {
-    return value.filter((id) => typeof id === "string");
+    return value
+      .filter((id) => typeof id === "string")
+      .filter((id) => CATALOG.stores.some((store) => store.id === id))
+      .slice(0, 20);
   }
   if (typeof value === "string" && value.trim()) {
     return value
       .split(",")
       .map((id) => id.trim())
-      .filter(Boolean);
+      .filter(Boolean)
+      .filter((id) => CATALOG.stores.some((store) => store.id === id))
+      .slice(0, 20);
   }
   return [];
 }

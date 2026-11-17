@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { CSSProperties } from "react";
 import type { Recipe, RecipeResponse } from "../types";
 
@@ -39,6 +40,26 @@ export default function ResultView({
 }: ResultViewProps) {
   const recipe = result.recipes[activeIndex] ?? result.primary;
   const theme = themeFor(recipe);
+  const [copied, setCopied] = useState(false);
+
+  async function copyShoppingList() {
+    const text = [
+      recipe.title,
+      ...recipe.ingredients.map((ingredient) => {
+        const deal = ingredient.deal
+          ? ` — ${ingredient.deal.storeShort} ${ingredient.deal.price !== null ? `€${ingredient.deal.price.toFixed(2)}` : ""}`.trim()
+          : "";
+        return `- ${ingredient.name} (${ingredient.amount})${deal}`;
+      })
+    ].join("\n");
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1800);
+    } catch {
+      setCopied(false);
+    }
+  }
   const caughtTotal = result.game.caught.reduce(
     (total, item) => total + item.count,
     0
@@ -205,6 +226,9 @@ export default function ResultView({
               <span>Deal savings</span>
               <strong>{recipe.savings > 0 ? euro(recipe.savings) : "—"}</strong>
             </div>
+            <button type="button" className="btn btn-secondary btn-block" onClick={copyShoppingList}>
+              {copied ? "Copied shopping list" : "Copy shopping list"}
+            </button>
             <p>
               Prices are estimates and package sizes vary. Always check the
               shelf price.
