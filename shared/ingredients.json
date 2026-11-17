@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "tomato",
+    "label": "Tomato",
+    "emoji": "🍅",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "tomaat",
+      "tomaten",
+      "kerstomaat",
+      "cherrytomaten",
+      "snoeptomaat",
+      "trostomaat"
+    ]
+  },
+  {
+    "id": "onion",
+    "label": "Onion",
+    "emoji": "🧅",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "ui",
+      "uien",
+      "sjalot",
+      "sjalotten",
+      "bosui",
+      "lente-ui",
+      "rode ui",
+      "gele ui"
+    ]
+  },
+  {
+    "id": "garlic",
+    "label": "Garlic",
+    "emoji": "🧄",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "knoflook",
+      "knoflooktenen",
+      "knoflookpuree"
+    ]
+  },
+  {
+    "id": "mushroom",
+    "label": "Mushrooms",
+    "emoji": "🍄",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "champignon",
+      "champignons",
+      "paddenstoel",
+      "paddenstoelen",
+      "shiitake",
+      "oesterzwam"
+    ]
+  },
+  {
+    "id": "courgette",
+    "label": "Courgette",
+    "emoji": "🥒",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "courgette",
+      "courgettes",
+      "zucchini"
+    ]
+  },
+  {
+    "id": "broccoli",
+    "label": "Broccoli",
+    "emoji": "🥦",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "broccoli",
+      "broccoliroosjes"
+    ]
+  },
+  {
+    "id": "spinach",
+    "label": "Spinach",
+    "emoji": "🥬",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "spinazie",
+      "babyteelt",
+      "bladdspinazie"
+    ]
+  },
+  {
+    "id": "kale",
+    "label": "Kale",
+    "emoji": "🥬",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "boerenkool",
+      "snijkool"
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "label": "Pumpkin",
+    "emoji": "🎃",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "pompoen",
+      "butternut",
+      "hokkaido",
+      "pompoenblokjes"
+    ]
+  },
+  {
+    "id": "bellpepper",
+    "label": "Bell pepper",
+    "emoji": "🫑",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "paprika",
+      "paprika's",
+      "puntpaprika",
+      "minipaprika",
+      "rode paprika",
+      "gele paprika"
+    ]
+  },
+  {
+    "id": "avocado",
+    "label": "Avocado",
+    "emoji": "🥑",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "avocado",
+      "avocado's",
+      "avocadostukjes"
+    ]
+  },
+  {
+    "id": "carrot",
+    "label": "Carrot",
+    "emoji": "🥕",
+    "category": "veg",
+    "game": true,
+    "keywords": [
+      "wortel",
+      "wortels",
+      "worteltjes",
+      "peen",
+      "waspeen",
+      "bospeen"
+    ]
+  },
+  {
+    "id": "leek",
+    "label": "Leek",
+    "emoji": "🥬",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "prei",
+      "preitjes"
+    ]
+  },
+  {
+    "id": "peas",
+    "label": "Peas",
+    "emoji": "🫛",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "doperwt",
+      "doperwten",
+      "erwten",
+      "tuinerwten"
+    ]
+  },
+  {
+    "id": "greenbeans",
+    "label": "Green beans",
+    "emoji": "🫛",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "sperzieboon",
+      "sperziebonen",
+      "sperzieboontjes",
+      "boontjes"
+    ]
+  },
+  {
+    "id": "pakchoi",
+    "label": "Pak choi",
+    "emoji": "🥬",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "paksoi",
+      "pak choi",
+      "pak-choi"
+    ]
+  },
+  {
+    "id": "rucola",
+    "label": "Rocket & salad",
+    "emoji": "🥗",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "rucola",
+      "veldsla",
+      "rucolasalade",
+      "salademix"
+    ]
+  },
+  {
+    "id": "potato",
+    "label": "Potatoes",
+    "emoji": "🥔",
+    "category": "carb",
+    "game": true,
+    "keywords": [
+      "aardappel",
+      "aardappelen",
+      "aardappeltjes",
+      "krieltjes",
+      "vastkokend",
+      "kruimig",
+      "friet",
+      "patat",
+      "puree"
+    ]
+  },
+  {
+    "id": "sweetpotato",
+    "label": "Sweet potato",
+    "emoji": "🍠",
+    "category": "carb",
+    "game": false,
+    "keywords": [
+      "zoete aardappel",
+      "zoete aardappelen",
+      "bataat"
+    ]
+  },
+  {
+    "id": "corn",
+    "label": "Sweetcorn",
+    "emoji": "🌽",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "mais",
+      "suikermais",
+      "maiskorrels"
+    ]
+  },
+  {
+    "id": "cauliflower",
+    "label": "Cauliflower",
+    "emoji": "🥦",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "bloemkool",
+      "bloemkoolroosjes"
+    ]
+  },
+  {
+    "id": "mixedveg",
+    "label": "Mixed vegetables",
+    "emoji": "🥗",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "wokgroenten",
+      "wokgroente",
+      "roerbakgroenten",
+      "roerbak",
+      "groentemix",
+      "groentenmix",
+      "wokmix",
+      "maaltijdmix",
+      "stir-fry mix",
+      "groenteblend",
+      "verspakket",
+      "verspakketten",
+      "groentepakket"
+    ]
+  },
+  {
+    "id": "cucumber",
+    "label": "Cucumber",
+    "emoji": "🥒",
+    "category": "veg",
+    "game": false,
+    "keywords": [
+      "komkommer",
+      "komkommers"
+    ]
+  },
+  {
+    "id": "chicken",
+    "label": "Chicken",
+    "emoji": "🍗",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "kip",
+      "kipfilet",
+      "kipdij",
+      "kipdijen",
+      "kipgehakt",
+      "kipschnitzel",
+      "kipburgers",
+      "chicken"
+    ]
+  },
+  {
+    "id": "beef",
+    "label": "Beef",
+    "emoji": "🥩",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "rund",
+      "rundergehakt",
+      "gehakt",
+      "biefstuk",
+      "entrecote",
+      "hamburger",
+      "runder",
+      "stoofvlees",
+      "hachee"
+    ]
+  },
+  {
+    "id": "pork",
+    "label": "Pork",
+    "emoji": "🥓",
+    "category": "protein",
+    "game": false,
+    "keywords": [
+      "varken",
+      "varkensvlees",
+      "speklap",
+      "buikspek",
+      "procureur",
+      "varkenshaas",
+      "schnitzel"
+    ]
+  },
+  {
+    "id": "sausage",
+    "label": "Sausage",
+    "emoji": "🌭",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "worst",
+      "worstjes",
+      "rookworst",
+      "braadworst",
+      "saucijs",
+      "saucijzen",
+      "knakworst"
+    ]
+  },
+  {
+    "id": "salmon",
+    "label": "Salmon",
+    "emoji": "🐟",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "zalm",
+      "zalmfilet",
+      "gerookte zalm",
+      "zalmfilets"
+    ]
+  },
+  {
+    "id": "whitefish",
+    "label": "White fish",
+    "emoji": "🐟",
+    "category": "protein",
+    "game": false,
+    "keywords": [
+      "kabeljauw",
+      "cod",
+      "visfilet",
+      "witvis",
+      "pangasius",
+      "tilapia",
+      "schelvis",
+      "vissticks",
+      "visfingers"
+    ]
+  },
+  {
+    "id": "shrimp",
+    "label": "Shrimp",
+    "emoji": "🍤",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "garnalen",
+      "garnaal",
+      "garnalenmix",
+      "hollandse garnalen"
+    ]
+  },
+  {
+    "id": "egg",
+    "label": "Eggs",
+    "emoji": "🥚",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "eieren",
+      "eitje",
+      "scharrelei",
+      "vrije uitloop ei",
+      "eieren vrije uitloop"
+    ]
+  },
+  {
+    "id": "tofu",
+    "label": "Tofu",
+    "emoji": "🧆",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "tofu",
+      "tempeh",
+      "vega blokjes",
+      "plantaardige blokjes"
+    ]
+  },
+  {
+    "id": "halloumi",
+    "label": "Halloumi",
+    "emoji": "🧀",
+    "category": "protein",
+    "game": true,
+    "keywords": [
+      "halloumi",
+      "grillkaas"
+    ]
+  },
+  {
+    "id": "cheese",
+    "label": "Cheese",
+    "emoji": "🧀",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "kaas",
+      "geraspte kaas",
+      "cheddar",
+      "beemster",
+      "parmezaan",
+      "parmigiano",
+      "oude kaas",
+      "jong belegen"
+    ]
+  },
+  {
+    "id": "mozzarella",
+    "label": "Mozzarella",
+    "emoji": "🧀",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "mozzarella",
+      "burrata",
+      "buffelmozzarella"
+    ]
+  },
+  {
+    "id": "bacon",
+    "label": "Bacon",
+    "emoji": "🥓",
+    "category": "protein",
+    "game": false,
+    "keywords": [
+      "bacon",
+      "spekjes",
+      "ontbijtspek",
+      "spekreepjes",
+      "pancetta"
+    ]
+  },
+  {
+    "id": "pasta",
+    "label": "Pasta",
+    "emoji": "🍝",
+    "category": "carb",
+    "game": true,
+    "keywords": [
+      "pasta",
+      "penne",
+      "rigatoni",
+      "spaghetti",
+      "macaroni",
+      "tagliatelle",
+      "fusilli",
+      "farfalline",
+      "lasagnebladen",
+      "orecchiette"
+    ]
+  },
+  {
+    "id": "rice",
+    "label": "Rice",
+    "emoji": "🍚",
+    "category": "carb",
+    "game": true,
+    "keywords": [
+      "rijst",
+      "basmatirijst",
+      "pandanrijst",
+      "sushirijst",
+      "risottorijst",
+      "rijstmix",
+      "risotto"
+    ]
+  },
+  {
+    "id": "noodles",
+    "label": "Noodles",
+    "emoji": "🍜",
+    "category": "carb",
+    "game": true,
+    "keywords": [
+      "noedel",
+      "noedels",
+      "mie",
+      "mihoen",
+      "noodles",
+      "ramen",
+      "udon",
+      "woknoedels"
+    ]
+  },
+  {
+    "id": "bread",
+    "label": "Bread",
+    "emoji": "🍞",
+    "category": "carb",
+    "game": true,
+    "keywords": [
+      "brood",
+      "stokbrood",
+      "pistolet",
+      "bollen",
+      "toast",
+      "broodjes",
+      "ciabatta",
+      "tijgerbrood"
+    ]
+  },
+  {
+    "id": "tortilla",
+    "label": "Tortillas",
+    "emoji": "🌮",
+    "category": "carb",
+    "game": false,
+    "keywords": [
+      "tortilla",
+      "tortilla's",
+      "wrap",
+      "wraps",
+      "taco"
+    ]
+  },
+  {
+    "id": "naan",
+    "label": "Naan & pita",
+    "emoji": "🫓",
+    "category": "carb",
+    "game": false,
+    "keywords": [
+      "naanbrood",
+      "pita",
+      "pitabroodje",
+      "pitabroodjes",
+      "flatbread"
+    ]
+  },
+  {
+    "id": "pizza",
+    "label": "Pizza base",
+    "emoji": "🍕",
+    "category": "carb",
+    "game": false,
+    "keywords": [
+      "pizza",
+      "pizzabodem",
+      "pizza bodem",
+      "pizza's"
+    ]
+  },
+  {
+    "id": "milk",
+    "label": "Milk",
+    "emoji": "🥛",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "melk",
+      "halfvolle melk",
+      "volle melk",
+      "magere melk"
+    ]
+  },
+  {
+    "id": "cream",
+    "label": "Cream",
+    "emoji": "🥛",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "kookroom",
+      "slagroom",
+      "crème fraîche",
+      "creme fraiche",
+      "zurige room",
+      "roomsaus",
+      "room saus",
+      "koffieroom"
+    ]
+  },
+  {
+    "id": "butter",
+    "label": "Butter",
+    "emoji": "🧈",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "boter",
+      "roomboter",
+      "margarine",
+      "bakboter",
+      "becel",
+      "blue band",
+      "halvarine"
+    ]
+  },
+  {
+    "id": "yogurt",
+    "label": "Yoghurt",
+    "emoji": "🥣",
+    "category": "dairy",
+    "game": false,
+    "keywords": [
+      "yoghurt",
+      "griekse yoghurt",
+      "skyr",
+      "kwark"
+    ]
+  },
+  {
+    "id": "lemon",
+    "label": "Lemon",
+    "emoji": "🍋",
+    "category": "fruit",
+    "game": true,
+    "keywords": [
+      "citroen",
+      "citroenen",
+      "limoen",
+      "limoenen",
+      "citroensap"
+    ]
+  },
+  {
+    "id": "apple",
+    "label": "Apple",
+    "emoji": "🍎",
+    "category": "fruit",
+    "game": true,
+    "keywords": [
+      "appel",
+      "appels",
+      "appeltjes",
+      "jonagold",
+      "elstar",
+      "handappels",
+      "handappel"
+    ]
+  },
+  {
+    "id": "banana",
+    "label": "Banana",
+    "emoji": "🍌",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "banaan",
+      "bananen"
+    ]
+  },
+  {
+    "id": "berries",
+    "label": "Berries",
+    "emoji": "🫐",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "bessen",
+      "blauwe bessen",
+      "frambozen",
+      "aardbeien",
+      "bessenmix",
+      "rode bessen"
+    ]
+  },
+  {
+    "id": "mango",
+    "label": "Mango",
+    "emoji": "🥭",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "mango",
+      "mango's"
+    ]
+  },
+  {
+    "id": "orange",
+    "label": "Oranges & mandarins",
+    "emoji": "🍊",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "sinaasappel",
+      "sinaasappels",
+      "mandarijn",
+      "mandarijnen",
+      "clementines"
+    ]
+  },
+  {
+    "id": "pear",
+    "label": "Pear",
+    "emoji": "🍐",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "peer",
+      "peren",
+      "handperen",
+      "conference"
+    ]
+  },
+  {
+    "id": "grapes",
+    "label": "Grapes",
+    "emoji": "🍇",
+    "category": "fruit",
+    "game": false,
+    "keywords": [
+      "druiven",
+      "druif",
+      "witte druiven",
+      "blauwe druiven"
+    ]
+  },
+  {
+    "id": "herbs",
+    "label": "Fresh herbs",
+    "emoji": "🌿",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "basilicum",
+      "peterselie",
+      "koriander",
+      "tijm",
+      "rozemarijn",
+      "salie",
+      "dille",
+      "bieslook",
+      "munt",
+      "oregano"
+    ]
+  },
+  {
+    "id": "pesto",
+    "label": "Pesto",
+    "emoji": "🌿",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "pesto",
+      "pesto rosso",
+      "pesto genovese"
+    ]
+  },
+  {
+    "id": "curry",
+    "label": "Curry paste",
+    "emoji": "🍛",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "curry",
+      "kerrie",
+      "currypasta",
+      "currykruiden",
+      "currypoeder",
+      "groene curry",
+      "rode curry"
+    ]
+  },
+  {
+    "id": "soy",
+    "label": "Soy & teriyaki",
+    "emoji": "🥢",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "sojasaus",
+      "ketjap",
+      "teriyaki",
+      "soja",
+      "oestersaus",
+      "hoisinsaus"
+    ]
+  },
+  {
+    "id": "tomato_sauce",
+    "label": "Tomato sauce",
+    "emoji": "🥫",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "tomatensaus",
+      "passata",
+      "gezeefde tomaten",
+      "pastasaus",
+      "bolognese saus",
+      "tomatensaus met"
+    ]
+  },
+  {
+    "id": "beans",
+    "label": "Beans",
+    "emoji": "🫘",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "bonen",
+      "zwarte bonen",
+      "kidneybonen",
+      "bruine bonen",
+      "witte bonen",
+      "bonenmix",
+      "cannellini"
+    ]
+  },
+  {
+    "id": "chickpeas",
+    "label": "Chickpeas",
+    "emoji": "🫘",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "kikkererwten",
+      "chickpeas",
+      "kikkererwtenblik"
+    ]
+  },
+  {
+    "id": "lentils",
+    "label": "Lentils",
+    "emoji": "🫘",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "linzen",
+      "rode linzen",
+      "groene linzen",
+      "linzenblik"
+    ]
+  },
+  {
+    "id": "olives",
+    "label": "Olives",
+    "emoji": "🫒",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "olijven",
+      "zwarte olijven",
+      "groene olijven"
+    ]
+  },
+  {
+    "id": "honey",
+    "label": "Honey",
+    "emoji": "🍯",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "honing",
+      "agave",
+      "agavesiroop"
+    ]
+  },
+  {
+    "id": "nuts",
+    "label": "Nuts",
+    "emoji": "🥜",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "noten",
+      "amandelen",
+      "cashewnoten",
+      "pinda",
+      "pinda's",
+      "walnoten",
+      "pijnboompitten",
+      "sesam"
+    ]
+  },
+  {
+    "id": "chocolate",
+    "label": "Chocolate",
+    "emoji": "🍫",
+    "category": "treat",
+    "game": true,
+    "keywords": [
+      "chocolade",
+      "chocola",
+      "chocoladeletter",
+      "kruidnoten",
+      "pepernoten",
+      "chocoladevlokken",
+      "chocoladepasta"
+    ]
+  },
+  {
+    "id": "snacks",
+    "label": "Snacks",
+    "emoji": "🍩",
+    "category": "treat",
+    "game": false,
+    "keywords": [
+      "donut",
+      "donuts",
+      "koffiebroodje",
+      "koffiebroodjes",
+      "taart",
+      "cake",
+      "koek",
+      "chips",
+      "popcorn",
+      "brownie"
+    ]
+  },
+  {
+    "id": "coffee",
+    "label": "Coffee",
+    "emoji": "☕",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "koffiebonen",
+      "koffiecups",
+      "espresso",
+      "dolce gusto",
+      "senseo",
+      "filterkoffie",
+      "koffiepads"
+    ]
+  },
+  {
+    "id": "stock",
+    "label": "Stock",
+    "emoji": "🥣",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "bouillon",
+      "bouillonblokjes",
+      "runderbouillon",
+      "groentebouillon",
+      "kippenbouillon"
+    ]
+  },
+  {
+    "id": "flour",
+    "label": "Flour",
+    "emoji": "🌾",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "tarwebloem",
+      "meel",
+      "paneermeel"
+    ]
+  },
+  {
+    "id": "wine",
+    "label": "Wine",
+    "emoji": "🍷",
+    "category": "pantry",
+    "game": false,
+    "keywords": [
+      "wijn",
+      "witte wijn",
+      "rode wijn",
+      "kookwijn"
+    ]
+  }
+]

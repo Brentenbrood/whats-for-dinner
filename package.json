@@ -1,0 +1,30 @@
+{
+  "name": "whats-for-dinner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A food minigame that turns supermarket deals into a dinner recipe.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,cyan \"node --watch server/index.js\" \"vite\"",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/index.js",
+    "scrape": "node server/scrape.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "devalue": "^5.1.1",
+    "express": "^4.21.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ah",
+    "name": "Albert Heijn",
+    "short": "AH",
+    "color": "#0b8fd6",
+    "ink": "#ffffff",
+    "dealsUrl": "https://www.ah.nl/bonus"
+  },
+  {
+    "id": "dirk",
+    "name": "Dirk",
+    "short": "DIRK",
+    "color": "#e2001a",
+    "ink": "#ffffff",
+    "dealsUrl": "https://www.dirk.nl/aanbiedingen"
+  },
+  {
+    "id": "jumbo",
+    "name": "Jumbo",
+    "short": "JUMBO",
+    "color": "#f0b400",
+    "ink": "#2a2300",
+    "dealsUrl": "https://www.jumbo.com/aanbiedingen"
+  },
+  {
+    "id": "plus",
+    "name": "PLUS",
+    "short": "PLUS",
+    "color": "#00843d",
+    "ink": "#ffffff",
+    "dealsUrl": "https://www.plus.nl/aanbiedingen"
+  },
+  {
+    "id": "lidl",
+    "name": "Lidl",
+    "short": "LIDL",
+    "color": "#0050aa",
+    "ink": "#ffffff",
+    "dealsUrl": "https://www.lidl.nl/c/aanbiedingen/a10008785"
+  },
+  {
+    "id": "aldi",
+    "name": "ALDI",
+    "short": "ALDI",
+    "color": "#003b7a",
+    "ink": "#ffffff",
+    "dealsUrl": "https://www.aldi.nl/aanbiedingen.html"
+  }
+]
