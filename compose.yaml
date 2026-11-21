@@ -2,27 +2,32 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
-    container_name: whats-for-dinner-app
+      dockerfile_inline: |
+        FROM node:22-alpine
+        WORKDIR /app
+        COPY package*.json ./
+        RUN npm ci
+        COPY . .
+        RUN npm run build
+        ENV NODE_ENV=production
+        ENV PORT=8787
+        EXPOSE 8787
+        CMD ["npm", "start"]
+    image: whats-for-dinner:latest
+    container_name: whats-for-dinner
     restart: unless-stopped
     environment:
       PORT: "8787"
+      NODE_ENV: production
     volumes:
       - ./data:/app/data
+    networks:
+      - homelab_net
+    labels:
+      caddy: whatsfordinner.local.lan
+      caddy.tls: internal
+      caddy.reverse_proxy: whats-for-dinner:8787
 
-  caddy:
-    image: caddy:2-alpine
-    container_name: whats-for-dinner-caddy
-    restart: unless-stopped
-    depends_on:
-      - app
-    ports:
-      - "80:80"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-
-volumes:
-  caddy_data:
-  caddy_config:
+networks:
+  homelab_net:
+    external: true

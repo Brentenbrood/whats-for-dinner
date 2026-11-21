@@ -1,3 +1,0 @@
-http://whatsfordinner.local.lan {
-    reverse_proxy app:8787
-}
